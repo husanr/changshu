@@ -1,0 +1,74 @@
+[
+  {
+    "id": "weihua",
+    "title": "河南卫华",
+    "products": [
+      {
+        "text": "吊钩桥式起重机",
+        "url": "../assets/img/product/kuangshan/01.jpg"
+      },
+      {
+        "text": "抓斗桥式起重机",
+        "url": "../assets/img/product/kuangshan/02.jpg"
+      },
+      {
+        "text": "抓斗桥式起重机",
+        "url": "../assets/img/product/kuangshan/02.jpg"
+      }
+    ]
+  },
+  {
+    "id": "kuangshan",
+    "title": "河南矿山",
+    "products": [
+      {
+        "text": "吊钩桥式起重机",
+        "url": "../assets/img/product/kuangshan/01.jpg"
+      },
+      {
+        "text": "抓斗桥式起重机",
+        "url": "../assets/img/product/kuangshan/02.jpg"
+      },
+      {
+        "text": "抓斗桥式起重机",
+        "url": "../assets/img/product/kuangshan/02.jpg"
+      }
+    ]
+  },
+  {
+    "id": "dafang",
+    "title": "河南大方",
+    "products": [
+      {
+        "text": "吊钩桥式起重机",
+        "url": "../assets/img/product/kuangshan/01.jpg"
+      },
+      {
+        "text": "抓斗桥式起重机",
+        "url": "../assets/img/product/kuangshan/02.jpg"
+      },
+      {
+        "text": "抓斗桥式起重机",
+        "url": "../assets/img/product/kuangshan/02.jpg"
+      }
+    ]
+  },
+  {
+    "id": "niukelun",
+    "title": "纽科伦",
+    "products": [
+      {
+        "text": "吊钩桥式起重机",
+        "url": "../assets/img/product/kuangshan/01.jpg"
+      },
+      {
+        "text": "抓斗桥式起重机",
+        "url": "../assets/img/product/kuangshan/02.jpg"
+      },
+      {
+        "text": "抓斗桥式起重机",
+        "url": "../assets/img/product/kuangshan/02.jpg"
+      }
+    ]
+  }
+]

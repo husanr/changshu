@@ -2,6 +2,8 @@
 import Title from '@/components/Title.vue'
 import Nav from '@/components/Nav.vue'
 import Banner from '@/components/Banner.vue'
+import Products from '@/components/Products.vue'
+import products from '@/assets/json/products.json'
 
 </script>
 
@@ -12,32 +14,25 @@ import Banner from '@/components/Banner.vue'
   </header>
   <Banner></Banner>
   <main>
-    <section id="about">
-      <h2>关于我们</h2>
-      <p>这里是关于我们公司的介绍...</p>
-    </section>
-    <section id="products">
-      <h2>产品</h2>
-      <p>这里展示我们的产品...</p>
-    </section>
-    <section id="services">
-      <h2>服务</h2>
-      <p>这里提供我们的服务内容...</p>
-    </section>
+    <template v-for="item in products" :key="item.id">
+      <section :id="item.id">
+        <h2>{{ item.title }}</h2>
+        <Products :list="item.products"></Products>
+      </section>
+    </template>
     <section id="contact">
       <h2>联系方式</h2>
-      <p>这里提供联系信息...</p>
+      <p>联系电话：15212345678</p>
     </section>
   </main>
   <footer>
-    <p>&copy; 常熟起重机有限公司. All rights reserved.</p>
+    <p>&copy; 苏州市常熟起重机总销售. All rights reserved.</p>
   </footer>
 </template>
 
 <style lang="less" scoped>
 header,
 footer {
-  padding: 10px 0 0;
   text-align: center;
 }
 footer {
@@ -62,10 +57,6 @@ section {
 
 @media (max-width: 400px) {
 
-  header,
-  footer {
-    padding: 0.5rem 0 0;
-  }
   footer {
     padding: 1rem ;
   }

@@ -6,9 +6,13 @@ import {} from "vue"
 <template>
   <nav>
     <ul>
-      <li><a href="#about">关于我们</a></li>
-      <li><a href="#products">产品</a></li>
-      <li><a href="#services">服务</a></li>
+      <li><a href="#weihua">河南卫华</a></li>
+      <li><a href="#kuangshan">河南矿山</a></li>
+      <li><a href="#dafang">河南大方</a></li>
+      <li><a href="#niukelun">纽科伦</a></li>
+      <li><a href="#niukelun">纽科伦</a></li>
+      <li><a href="#niukelun">纽科伦</a></li>
+      <li><a href="#niukelun">纽科伦</a></li>
       <li><a href="#contact">联系方式</a></li>
     </ul>
   </nav>
@@ -18,9 +22,10 @@ import {} from "vue"
 nav ul {
   list-style-type: none;
   background: #d71312;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   li {
-    display: inline;
     line-height: 50px;
     margin: 0 30px;
     a {
@@ -31,10 +36,11 @@ nav ul {
 }
 @media (max-width: 600px) {
   nav ul li {
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
-    border-bottom: 1px solid #995454;
+    width: 25%;
+    margin: 0;
+    box-sizing: border-box;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
   }
 
 }

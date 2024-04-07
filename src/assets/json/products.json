@@ -1,25 +1,29 @@
 [
   {
     "id": "weihua",
-    "title": "河南卫华",
+    "title": "河南卫华起重",
     "products": [
       {
         "text": "吊钩桥式起重机",
-        "url": "/product/kuangshan/01.jpg"
+        "url": "/product/weihua/01.jpeg"
       },
       {
-        "text": "抓斗桥式起重机",
-        "url": "/product/kuangshan/02.jpg"
+        "text": "双梁门式起重机",
+        "url": "/product/weihua/02.jpeg"
       },
       {
-        "text": "抓斗桥式起重机",
-        "url": "/product/kuangshan/02.jpg"
+        "text": "新中式桥式起重机",
+        "url": "/product/weihua/03.jpeg"
+      },
+      {
+        "text": "新中式门式起重机",
+        "url": "/product/weihua/04.jpeg"
       }
     ]
   },
   {
     "id": "kuangshan",
-    "title": "河南矿山",
+    "title": "河南矿山起重",
     "products": [
       {
         "text": "吊钩桥式起重机",
@@ -30,44 +34,56 @@
         "url": "/product/kuangshan/02.jpg"
       },
       {
-        "text": "抓斗桥式起重机",
-        "url": "/product/kuangshan/02.jpg"
+        "text": "轨道门式起重机",
+        "url": "/product/kuangshan/03.jpg"
+      },
+      {
+        "text": "欧式起重机",
+        "url": "/product/kuangshan/04.jpg"
       }
     ]
   },
   {
     "id": "dafang",
-    "title": "河南大方",
+    "title": "河南大方起重",
     "products": [
       {
-        "text": "吊钩桥式起重机",
-        "url": "/product/kuangshan/01.jpg"
+        "text": "桥式双梁起重机",
+        "url": "/product/dafang/01.jpeg"
       },
       {
-        "text": "抓斗桥式起重机",
-        "url": "/product/kuangshan/02.jpg"
+        "text": "门式起重机",
+        "url": "/product/dafang/02.jpeg"
       },
       {
-        "text": "抓斗桥式起重机",
-        "url": "/product/kuangshan/02.jpg"
+        "text": "单梁起重机",
+        "url": "/product/dafang/03.jpeg"
+      },
+      {
+        "text": "新型欧式电动葫芦",
+        "url": "/product/dafang/04.jpeg"
       }
     ]
   },
   {
     "id": "niukelun",
-    "title": "纽科伦",
+    "title": "纽科伦起重",
     "products": [
       {
-        "text": "吊钩桥式起重机",
-        "url": "/product/kuangshan/01.jpg"
+        "text": "新中式电动单梁起重机",
+        "url": "/product/niukelun/01.jpeg"
       },
       {
-        "text": "抓斗桥式起重机",
-        "url": "/product/kuangshan/02.jpg"
+        "text": "智能装车起重机",
+        "url": "/product/niukelun/02.jpeg"
       },
       {
-        "text": "抓斗桥式起重机",
-        "url": "/product/kuangshan/02.jpg"
+        "text": "双主梁门式起重机",
+        "url": "/product/niukelun/03.jpeg"
+      },
+      {
+        "text": "新中式电动葫芦",
+        "url": "/product/niukelun/04.jpeg"
       }
     ]
   }

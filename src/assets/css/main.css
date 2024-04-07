@@ -3,3 +3,7 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+body .van-back-top {
+  background: #d71312 !important;
+}

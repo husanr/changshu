@@ -12,8 +12,8 @@ import products from '@/assets/json/products.json'
     <Title></Title>
     <Nav></Nav>
   </header>
-  <Banner></Banner>
   <main>
+    <Banner></Banner>
     <template v-for="item in products" :key="item.id">
       <section :id="item.id">
         <h2>{{ item.title }}</h2>
@@ -24,6 +24,7 @@ import products from '@/assets/json/products.json'
       <h2>联系方式</h2>
       <p>联系电话：15212345678</p>
     </section>
+    <van-back-top right="5vw" bottom="10vh" />
   </main>
   <footer>
     <p>&copy; 苏州市常熟起重机总销售. All rights reserved.</p>
@@ -41,11 +42,21 @@ footer {
   padding: 20px;
 }
 
+main {
+  max-width: 1200px;
+  margin: auto;
+
+}
+
+
 
 section {
   margin: 20px 0;
   padding: 10px;
   border: 1px solid #ddd;
+  h2 {
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 600px) {

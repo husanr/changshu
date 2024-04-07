@@ -46,4 +46,15 @@ const getUrl = (url) => {
     }
   }
 }
+@media (max-width: 600px) {
+  .products {
+    ul {
+      li {
+        img {
+          height: 120px;
+        }
+      }
+    }
+  }
+}
 </style>

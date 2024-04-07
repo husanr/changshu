@@ -16,7 +16,7 @@ const getUrl = (url) => {
     <ul>
       <template v-for="(item, index) in list" :key="index">
         <li>
-          <img src="@/assets/img/product/kuangshan/01.jpg" alt="">
+          <img :src="getUrl(item.url)" alt="">
           <p>{{ item.text }}</p>
         </li>
       </template>
